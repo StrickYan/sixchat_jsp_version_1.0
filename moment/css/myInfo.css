@@ -1,0 +1,61 @@
+		#header {
+			margin:50px auto 10px auto;
+			background-color:#FFF;
+			width:547px;
+			padding:10px 10px 5px 10px;
+			border-radius:3px;
+		}
+		.personal{
+			border:0px solid red;
+			position:fixed;
+			right:100px;
+			top:50px;
+		}
+		.bgmusic{
+			border:0px solid red;
+			position:fixed;
+			right:10px;
+			bottom:10px;
+		}
+		#divImage{
+			border:0px solid red;
+			background-color: #fcfcfc;
+			position:fixed;
+			left:20px;
+			top:50px;		
+			z-index:10;
+		}
+		#page {
+			border: 0px solid red;
+			background-color:#FCFCFC;
+			width: 556px; /*定宽*/
+			margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
+			margin-right: auto;
+			margin-top:5px;
+			margin-bottom:5px;
+			padding:6px;
+			font-size: 12px;
+			color:#a0a0a0;
+			text-align:center;
+			line-height:20px;
+			border-radius:3px;
+		}
+		#page span {
+			padding-left:113px;
+			padding-right:113px;
+		}
+		#footer {
+			border: 0px solid red;
+			background-color:#FCFCFC;
+			width: 556px; /*定宽*/
+			margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
+			margin-right: auto;
+			margin-top:5px;
+			margin-bottom:5px;
+			padding:6px;
+			font-size: 12px;
+			color:#a0a0a0;
+			text-align:center;
+			line-height:20px;
+			border-radius:3px;
+		}
