@@ -1,121 +1,121 @@
-	* {
-		margin:0;
-		padding:0;
-	}
-	body {
-		background-color: rgb(26, 188, 156);
-		font-family:Verdana,Geneva,Arial,sans-serif;
-	}
-	hr {
-		margin-top:8px;
-		margin-bottom:8px;
-	}
-	a {
-		text-decoration : none;
-		font-weight:bold;
-		color:gray;
-	}
-	a:hover,a:focus {
-		color:red;
-	}
-	.top{
-		width:100%;
-		background-color:#FCFCFC;
-		opacity:0.97;  /*透明度*/
-		border:0px solid red;
-		position:fixed;
-		top:0;
-		left:0;
-		z-index:2;
-		
-		text-align:center;
-		
-		/*vertical－align：middle;*/
-		
-	}
-	.logo {
-		border:0px solid red;		
-		display: inline-block;
-		position:fixed;
-		left:12%;
-	}
-	.search{
-		width:33%;
-		border:0px solid red;		
-		display: inline-block;
-		/*margin-left:230px;*/
-		position:relative;
-		bottom:2px;
-		
-	}
-	.sousuo{	
-		width: 80%;
-		margin-left: 10px;
-		background-color: #f2f2f5;
-		border: 0px solid #ccc;
-		padding-left:3px;
-		display: inline-block;
-	}
-	.search button {
-		/*width: 50px;*/
-		/*width:10%;*/
-		/*height:20px; */
-		padding:2px 5px;
-		border: 0px solid #95a5a6;
-		color:white;
-		background:#95a5a6;
-		font-size:12px;
-		cursor: pointer; 
-		border-radius:2px;
-		display: inline-block;
-	}
-	.search button:hover,.search button:focus {
-		box-shadow: 0 0 0 2px white, 0 0 0 3px gray;
-	}
-	.main{
-		background-image: url('../upload/main.png');
-		background-size: auto auto;	
-		background-repeat: no-repeat;
-		
-		border:0px solid red;
-		display: inline-block;
-		font-weight:bold;
-		margin-left:90px;
-		
-		margin-bottom:0px;
-		padding-left:30px;
-		line-height:30px;
-		font-size:18px;
-		
-	}
-	
-	.mypost{
-		border:0px solid red;
-		display: inline-block;
-		margin-left:20px;
-		margin-right:20px;
-		font-weight:bold;
-		font-size:15px;
-		
-		background-image: url('../upload/mypost.png');
-		background-size: auto auto;	
-		background-repeat: no-repeat;
-		padding-left:30px;
-		line-height:30px;
-		font-size:18px;
-	}
-	.news{
-		border:0px solid red;
-		display: inline-block;
-		margin-left:0px;
-		
-		background-image: url('../upload/news.png');
-		background-size: auto auto;	
-		background-repeat: no-repeat;
-		padding-left:30px;
-		line-height:30px;
-		font-weight:bold;
-		font-size:18px;
-		color:gray;
-		
-	}
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: rgb(26, 188, 156);
+    font-family:Verdana,Geneva,Arial,sans-serif;
+}
+hr {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+a {
+    text-decoration : none;
+    font-weight:bold;
+    color:gray;
+}
+a:hover,a:focus {
+    color:red;
+}
+.top{
+    width:100%;
+    background-color:#FCFCFC;
+    opacity:0.97;  /*透明度*/
+    border:0px solid red;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+
+    text-align:center;
+
+    /*vertical－align：middle;*/
+
+}
+.logo {
+    border:0px solid red;		
+    display: inline-block;
+    position:fixed;
+    left:12%;
+}
+.search{
+    width:33%;
+    border:0px solid red;		
+    display: inline-block;
+    /*margin-left:230px;*/
+    position:relative;
+    bottom:2px;
+
+}
+.sousuo{	
+    width: 80%;
+    margin-left: 10px;
+    background-color: #f2f2f5;
+    border: 0px solid #ccc;
+    padding-left:3px;
+    display: inline-block;
+}
+.search button {
+    /*width: 50px;*/
+    /*width:10%;*/
+    /*height:20px; */
+    padding:2px 5px;
+    border: 0px solid #95a5a6;
+    color:white;
+    background:#95a5a6;
+    font-size:12px;
+    cursor: pointer; 
+    border-radius:2px;
+    display: inline-block;
+}
+.search button:hover,.search button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px gray;
+}
+.main{
+    background-image: url('../upload/main.png');
+    background-size: auto auto;	
+    background-repeat: no-repeat;
+
+    border:0px solid red;
+    display: inline-block;
+    font-weight:bold;
+    margin-left:90px;
+
+    margin-bottom:0px;
+    padding-left:30px;
+    line-height:30px;
+    font-size:18px;
+
+}
+
+.mypost{
+    border:0px solid red;
+    display: inline-block;
+    margin-left:20px;
+    margin-right:20px;
+    font-weight:bold;
+    font-size:15px;
+
+    background-image: url('../upload/mypost.png');
+    background-size: auto auto;	
+    background-repeat: no-repeat;
+    padding-left:30px;
+    line-height:30px;
+    font-size:18px;
+}
+.news{
+    border:0px solid red;
+    display: inline-block;
+    margin-left:0px;
+
+    background-image: url('../upload/news.png');
+    background-size: auto auto;	
+    background-repeat: no-repeat;
+    padding-left:30px;
+    line-height:30px;
+    font-weight:bold;
+    font-size:18px;
+    color:gray;
+
+}
