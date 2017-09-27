@@ -1,182 +1,182 @@
-		body {
-			/*background-image: url('../img/default/miao.jpg');*/
-			background-image: url('../img/default/6.jpg');
-			background-repeat: no-repeat;
-			/*background-size: 90% 99%;*/
-			background-size: 100% 100%;
-			background-attachment: fixed; /*background-attachment设置或检索背景图像是随对象内容滚动还是固定的；fixed：固定*/
-			background-position: 50% 50%;
-			background-color: #ECECFF;		
-		}
-		.personal {
-			border: 0px solid red;
-			position: fixed;
-			right: 100px;
-			top: 50px;
-		}
-		.personal img:hover {
-			box-shadow: 0 0 15px 3px #eb7350;;	 		
-		}
-		#divImage {
-			border: 0px solid red;
-			background-color: #fcfcfc;
-			position: fixed;
-			left: 20px;
-			top: 50px;
-			z-index: 10;
-		}
-		.sendTop {
-			border: 0px solid red;
-			width: 568px; /*定宽*/
-			margin-left: auto; /* margin-left 与 margin-right 设置为 auto */
-			margin-right: auto;
-			margin-top:50px;
-			position: relative;
-			background-color:#FCFCFC;
-			padding-top:5px;
-			padding-bottom:5px;
-			border-radius:3px;
-		}
-		#tell {
-			border: 0px solid red;
-			color: #7f5333;			
-			margin-left: 10px;
-			border: 0px solid red;
-		}
-		#send_text {				
-			padding:5px 10px;
-		}
-		#send_text textarea {
-			width:100%;
-			height:6em;
-			padding:3px;
-			box-sizing:border-box;
-			border-radius: 2px;
-		}
-		#permission {
-			border: 0px solid red;
-			display:inline;	
-			padding:0px 10px;		
-		}
-		#permission button {
-			border: 0px solid #fcfcfc;
-			margin-right:3px;
-			color:gray;
-			background:#FCFCFC;
-			cursor: pointer; 
-			font-weight:bold;
-		}
-		#permission button:hover,#permission button:focus,#permission span:hover,#permission span:focus {
-			color:#eb7350;
-		}
-		.ifile {
-			opacity: 0;
-			filter: alpha(opacity = 0);
-			cursor: pointer;
-			border: 0px solid red;
-			width:0px;
-			margin-left:-1000px;		
-		}
-		#upload_send {
-			border: 0px solid red;
-			display:inline;
-			padding:0px 10px;
-			float:right;
-		}
-		#upload_send button {
-			border: 1px solid #2980B9;
-			color:#ECF0F1;
-			background:#2980B9;
-			cursor: pointer; 
-			font-style: normal;
-			font-weight:bold;
-			border-radius: 2px;
-			box-sizing: border-box;
-			padding: 3px 5px;
-			
-			color:white;
-			font-size:12px;
-			line-height:12px;	
-		}
-		#upload_send button:hover,#upload_send button:focus {
-			box-shadow: 0 0 0 2px white, 0 0 0 3px gray;
-		}
-		.mentionPeople {
-			border: 0px solid red;
-			width: 96%;
-			margin-left:10px;
-			padding-left:3px;
-			overflow:hidden;
-			margin-top:5px;		
-			font-size:14px;
-		}
-		.blockPeople {
-			border: 0px solid red;
-			width: 96%;
-			margin-left:10px;
-			padding-left:3px;
-			margin-top:5px;
-			overflow:hidden;
-			font-size:14px;
-		}
-		.notice {
-			border: 0px solid red;
-			width: 548px; /*定宽*/
-			margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
-			margin-right: auto;
-			background-color:#FCFCFC;
-			FONT-SIZE: 12px;
-			color:#7f5333;
-			margin-top:5px;
-			padding:6px 10px;
-			border-radius:3px;
-		}
-		.music {
-			width: 588px; /*定宽*/
-			height:36px;
-			margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
-			margin-right: auto;
-			position:relative;
-			top:-5px;
-		}
-		#page {
-			border: 0px solid red;
-			background-color:#FCFCFC;
-			width: 556px; /*定宽*/
-			margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
-			margin-right: auto;
-			margin-top:5px;
-			margin-bottom:5px;
-			padding:6px;
-			font-size: 12px;
-			color:#a0a0a0;
-			text-align:center;
-			line-height:20px;
-			border-radius:3px;
-		}
-		#page span {
-			padding-left:113px;
-			padding-right:113px;
-		}
-		#footer {
-			border: 0px solid red;
-			background-color:#FCFCFC;
-			width: 556px; /*定宽*/
-			margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
-			margin-right: auto;
-			margin-top:5px;
-			margin-bottom:5px;
-			padding:6px;
-			font-size: 12px;
-			color:#a0a0a0;
-			text-align:center;
-			line-height:20px;
-			border-radius:3px;
-		}
-		
-		span.emotion{color:gray;font-size:13px;font-weight:bold;width:42px; height:20px; background:url(../face/icon.gif) no-repeat 2px 2px; padding-left:20px; cursor:pointer}
-		span.emotion:hover{background-position:2px -23px}
-		.qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;}
-		.qqFace table td{padding:0px;}
-		.qqFace table td img{cursor:pointer;border:1px #fff solid;}
-		.qqFace table td img:hover{border:1px #0066cc solid;}
+body {
+    /*background-image: url('../img/default/miao.jpg');*/
+    background-image: url('../img/default/6.jpg');
+    background-repeat: no-repeat;
+    /*background-size: 90% 99%;*/
+    background-size: 100% 100%;
+    background-attachment: fixed; /*background-attachment设置或检索背景图像是随对象内容滚动还是固定的；fixed：固定*/
+    background-position: 50% 50%;
+    background-color: #ECECFF;		
+}
+.personal {
+    border: 0px solid red;
+    position: fixed;
+    right: 100px;
+    top: 50px;
+}
+.personal img:hover {
+    box-shadow: 0 0 15px 3px #eb7350;;	 		
+}
+#divImage {
+    border: 0px solid red;
+    background-color: #fcfcfc;
+    position: fixed;
+    left: 20px;
+    top: 50px;
+    z-index: 10;
+}
+.sendTop {
+    border: 0px solid red;
+    width: 568px; /*定宽*/
+    margin-left: auto; /* margin-left 与 margin-right 设置为 auto */
+    margin-right: auto;
+    margin-top:50px;
+    position: relative;
+    background-color:#FCFCFC;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:3px;
+}
+#tell {
+    border: 0px solid red;
+    color: #7f5333;			
+    margin-left: 10px;
+    border: 0px solid red;
+}
+#send_text {				
+    padding:5px 10px;
+}
+#send_text textarea {
+    width:100%;
+    height:6em;
+    padding:3px;
+    box-sizing:border-box;
+    border-radius: 2px;
+}
+#permission {
+    border: 0px solid red;
+    display:inline;	
+    padding:0px 10px;		
+}
+#permission button {
+    border: 0px solid #fcfcfc;
+    margin-right:3px;
+    color:gray;
+    background:#FCFCFC;
+    cursor: pointer; 
+    font-weight:bold;
+}
+#permission button:hover,#permission button:focus,#permission span:hover,#permission span:focus {
+    color:#eb7350;
+}
+.ifile {
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    cursor: pointer;
+    border: 0px solid red;
+    width:0px;
+    margin-left:-1000px;		
+}
+#upload_send {
+    border: 0px solid red;
+    display:inline;
+    padding:0px 10px;
+    float:right;
+}
+#upload_send button {
+    border: 1px solid #2980B9;
+    color:#ECF0F1;
+    background:#2980B9;
+    cursor: pointer; 
+    font-style: normal;
+    font-weight:bold;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 3px 5px;
+
+    color:white;
+    font-size:12px;
+    line-height:12px;	
+}
+#upload_send button:hover,#upload_send button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px gray;
+}
+.mentionPeople {
+    border: 0px solid red;
+    width: 96%;
+    margin-left:10px;
+    padding-left:3px;
+    overflow:hidden;
+    margin-top:5px;		
+    font-size:14px;
+}
+.blockPeople {
+    border: 0px solid red;
+    width: 96%;
+    margin-left:10px;
+    padding-left:3px;
+    margin-top:5px;
+    overflow:hidden;
+    font-size:14px;
+}
+.notice {
+    border: 0px solid red;
+    width: 548px; /*定宽*/
+    margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
+    margin-right: auto;
+    background-color:#FCFCFC;
+    FONT-SIZE: 12px;
+    color:#7f5333;
+    margin-top:5px;
+    padding:6px 10px;
+    border-radius:3px;
+}
+.music {
+    width: 588px; /*定宽*/
+    height:36px;
+    margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
+    margin-right: auto;
+    position:relative;
+    top:-5px;
+}
+#page {
+    border: 0px solid red;
+    background-color:#FCFCFC;
+    width: 556px; /*定宽*/
+    margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
+    margin-right: auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:6px;
+    font-size: 12px;
+    color:#a0a0a0;
+    text-align:center;
+    line-height:20px;
+    border-radius:3px;
+}
+#page span {
+    padding-left:113px;
+    padding-right:113px;
+}
+#footer {
+    border: 0px solid red;
+    background-color:#FCFCFC;
+    width: 556px; /*定宽*/
+    margin-left: auto; /* margin-left 与 margin-right 设置为 auto 居中*/
+    margin-right: auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:6px;
+    font-size: 12px;
+    color:#a0a0a0;
+    text-align:center;
+    line-height:20px;
+    border-radius:3px;
+}
+
+span.emotion{color:gray;font-size:13px;font-weight:bold;width:42px; height:20px; background:url(../face/icon.gif) no-repeat 2px 2px; padding-left:20px; cursor:pointer}
+span.emotion:hover{background-position:2px -23px}
+.qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;}
+.qqFace table td{padding:0px;}
+.qqFace table td img{cursor:pointer;border:1px #fff solid;}
+.qqFace table td img:hover{border:1px #0066cc solid;}
