@@ -1,90 +1,90 @@
-		body {
-			font-family: montserrat, arial, verdana;
-			background-color: #f2f2f5;
-		}
-		#login {
-			background-color:#fff;
-			width:210px;
-		
-			margin-left:auto;
-			margin-right:auto;
-			text-align:center;				
-			border: 0 none;
-			border-radius: 3px;
-			box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-			padding: 20px 30px;
-			/*position:relative;*/
-			
-			position: absolute;
- 			left: 50%;
- 			top: 50%;				/*固定宽高水平垂直居中方法*/
-			margin-left:-135px;
-			margin-top:-235px;
-			
-		}
-		#brand_name {
-			display:block;
-			position:absolute;
-			top:15px;
-			left:15px;
-		}
-		#brand_name a{
-			color:gray;		
-			text-decoration : none;
-		}
-		.input_box {
-			/*width:210px;*/
-			/*height:35px;*/
-					
-			padding: 10px 15px;
-			border: 1px solid #ccc;
-			border-radius: 3px;
-			margin-bottom: 10px;
-			width: 100%;
-			box-sizing: border-box;
-			font-family: montserrat;
-			color: #2C3E50;
-			font-size: 13px;
-		}
-		#submit_button {
-			width:100%;
-			box-sizing: border-box;
-			border: 1px solid #3ECD3E;
-			background:#3ECD3E;
-			color:white;
-			cursor:pointer;					
-			font-weight: bold;
-			/*border: 0 none;*/
-			border-radius: 1px;
-			font-size: 13px;
-			padding: 10px 15px;
-			margin-bottom: 10px;
-		}
-		#submit_button:hover,#submit_button:focus {
-			box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
-		}
-		#link {
-			display:block;
-			font-weight: bold;
-			font-size: 13px;
-			color:gray;		
-			text-decoration : none;
-			margin-top:20px;
-			margin-bottom:10px;
-		}
-		/*
-		#login a {
-			display:block;
-			background:#3ECD3E;
-			font-weight: bold;
-			border: 1px solid #3ECD3E;
-			border-radius: 1px;
-			font-size: 13px;
-			padding: 10px 15px;
-			color:white;		
-			text-decoration : none;
-		}
-		#login a:hover,#login a:focus {
-			box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
-		}
-		*/
+body {
+    font-family: montserrat, arial, verdana;
+    background-color: #f2f2f5;
+}
+#login {
+    background-color:#fff;
+    width:210px;
+
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;				
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    /*position:relative;*/
+
+    position: absolute;
+    left: 50%;
+    top: 50%;				/*固定宽高水平垂直居中方法*/
+    margin-left:-135px;
+    margin-top:-235px;
+
+}
+#brand_name {
+    display:block;
+    position:absolute;
+    top:15px;
+    left:15px;
+}
+#brand_name a{
+    color:gray;		
+    text-decoration : none;
+}
+.input_box {
+    /*width:210px;*/
+    /*height:35px;*/
+
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+#submit_button {
+    width:100%;
+    box-sizing: border-box;
+    border: 1px solid #3ECD3E;
+    background:#3ECD3E;
+    color:white;
+    cursor:pointer;					
+    font-weight: bold;
+    /*border: 0 none;*/
+    border-radius: 1px;
+    font-size: 13px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+#submit_button:hover,#submit_button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+#link {
+    display:block;
+    font-weight: bold;
+    font-size: 13px;
+    color:gray;		
+    text-decoration : none;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+/*
+#login a {
+    display:block;
+    background:#3ECD3E;
+    font-weight: bold;
+    border: 1px solid #3ECD3E;
+    border-radius: 1px;
+    font-size: 13px;
+    padding: 10px 15px;
+    color:white;		
+    text-decoration : none;
+}
+#login a:hover,#login a:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+*/
