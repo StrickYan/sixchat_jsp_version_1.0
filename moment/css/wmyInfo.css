@@ -1,235 +1,235 @@
-	.mainInfo{
-		position:relative;
-		border:0px solid red;
-		width:550px;/*定宽*/
-		margin:5px auto;/* margin-left 与 margin-right 设置为 auto */	
-		background:white;
-		color:#FFF;
-		padding:10px 8px 2px 10px;
-		border-radius:3px;		
-	}
-	.headImage{
-		position:absolute;
-		left:10px;
-		top:10px;
-	}
-	.headImage img {
-		border-radius:3px;
-	}
-	.id_name {
-		font-size:14px;
-		color:rgb(41, 128, 185);
-		padding-left:3px;
-		/*color: #333;*/
-		font-weight: 700;
-		line-height: 1.3;
-	}
-	.info{
-		border:0px solid red;
-		margin:1px 3px;
-		width:480px;
-		color:#000000;
-		font-size:14px;
-		color: #333;
-		line-height: 22px;
-	}	
-	.info img {
-		vertical-align:text-bottom;
-		width:22px;
-		height:22px;
-	}
-	.info a {
-		font-weight:normal;
-		display:inline-block;
-	}
-	.image{
-		border:0px solid red;
-		margin:0px 3px;
-	}
-	.line3{		
-		border:0px solid red;
-		margin:0px 3px 1px 3px;
-	}
-	.time{		
-		border:0px solid red;
-		display: inline-block;
-		/*width:415px;*/
-		color:rgb(127, 140, 141);
-		font-size:12px;
-		font-style:normal;
-		font-weight:normal;
-	}
-	.time a {
-		margin-left:10px;
-	}
-	.time a , .comment a , .cment a{
-		font-size:12px;
-		font-weight:normal;
-	}
-	.like{
-		border:0px solid red;
-		display: inline-block;
-		position:relative;
-		bottom:2px;	
-		float:right;
-		margin-right:5px;
-	}
-	.like button,.login-put button {
-		border-radius: 3px;
-		width: 26px;
-		height:16px; 
-		border: 0px solid #6C6C6C;
-		color: #FFF;
-		font-size:12px;
-		line-height:12px;
-		cursor: pointer; 
-		font-style: normal;
-		background: #7F8C8D;
-		padding:0px;
-		
-		
-		transition:width 2s, height 2s,color 2s,background 2s;
-		-moz-transition:width 2s, height 2s,color 2s,background 2s, -moz-transform 2s; /* Firefox 4 */
-		-webkit-transition:width 2s, height 2s,color 2s,background 2s, -webkit-transform 2s; /* Safari and Chrome */
-		-o-transition:width 2s, height 2s,color 2s,background 2s, -o-transform 2s; /* Opera */
-		}
-	.like button:hover {	
-		color: white;
-		background:#E74C3C;
-		transform:rotate(360deg);
-		-moz-transform:rotate(360deg); /* Firefox 4 */
-		-webkit-transform:rotate(360deg); /* Safari and Chrome */
-		-o-transform:rotate(360deg); /* Opera */
-	}
-	.login-put {
-		border:0px solid red;			
-		display: inline-block;
-		position:relative;
-		bottom:2px;	
-		float:right;
-	}
-	.line4{
-		border:0px solid red;
-		margin:1px 3px;
-		padding-left:5px;
-		background-color: #fcfcfc;
-	}
-	.like_me{
-		border:0px solid red;
-		display: inline-block;
-		color:#4A4AFF;
-		font-weight:bold;
-		color:rgb(41, 128, 185);
-		font-size:12px;
-		
-	}
-	.like_me img {
-		width:14px;
-		height:14px;
-		vertical-align:text-bottom;
-	}
-	.div1 {
-		border:0px solid red;
-		margin:10px 0px 1px 3px;
-		height:28px;
-	}
-	.text01 {
-		border: 0px solid #dddddd;
-		color: #999999;
-		float: left;
-		height: 24px;	
-		margin:1px 0px;
-		line-height: 16px;
-		padding: 0px 5px;
-		width: 410px;
-		background-color: #f2f2f5;
-	}
-	.button01{
-		display: inline-block;
-		width:60px;
-		margin-left:0px;
-		margin-top:0px;
-		margin-right:0px;
-	}
-	.button01 button {
-		width: 60px;
-		height:26px; 
-		border: 0px solid rgb(236, 240, 241);
-		color:rgb(236, 240, 241);
-		background:#95a5a6;
-		font-size:10px;
-		cursor: pointer; 
-		font-style: normal;
-		font-weight:bold;
-		
-		border-radius:2px;
-	}
-	.comment{
-		border:0px solid red;
-		margin:1px 3px 0px 3px;
-		padding: 3px 5px 3px 5px;
-		color:rgb(44, 62, 80);
-		background-color: #f0f0f0;
-		font-size:12px;
-		color: #333;
-	}
-	.one_comment {
-		display:block;
-		line-height: 18px;
-		padding-left:40px;
-		position:relative;
-	}
-	.comment img {
-		width:18px;
-		height:18px;
-		vertical-align:text-bottom;
-	}
+.mainInfo{
+    position:relative;
+    border:0px solid red;
+    width:550px;/*定宽*/
+    margin:5px auto;/* margin-left 与 margin-right 设置为 auto */	
+    background:white;
+    color:#FFF;
+    padding:10px 8px 2px 10px;
+    border-radius:3px;		
+}
+.headImage{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+.headImage img {
+    border-radius:3px;
+}
+.id_name {
+    font-size:14px;
+    color:rgb(41, 128, 185);
+    padding-left:3px;
+    /*color: #333;*/
+    font-weight: 700;
+    line-height: 1.3;
+}
+.info{
+    border:0px solid red;
+    margin:1px 3px;
+    width:480px;
+    color:#000000;
+    font-size:14px;
+    color: #333;
+    line-height: 22px;
+}	
+.info img {
+    vertical-align:text-bottom;
+    width:22px;
+    height:22px;
+}
+.info a {
+    font-weight:normal;
+    display:inline-block;
+}
+.image{
+    border:0px solid red;
+    margin:0px 3px;
+}
+.line3{		
+    border:0px solid red;
+    margin:0px 3px 1px 3px;
+}
+.time{		
+    border:0px solid red;
+    display: inline-block;
+    /*width:415px;*/
+    color:rgb(127, 140, 141);
+    font-size:12px;
+    font-style:normal;
+    font-weight:normal;
+}
+.time a {
+    margin-left:10px;
+}
+.time a , .comment a , .cment a{
+    font-size:12px;
+    font-weight:normal;
+}
+.like{
+    border:0px solid red;
+    display: inline-block;
+    position:relative;
+    bottom:2px;	
+    float:right;
+    margin-right:5px;
+}
+.like button,.login-put button {
+    border-radius: 3px;
+    width: 26px;
+    height:16px; 
+    border: 0px solid #6C6C6C;
+    color: #FFF;
+    font-size:12px;
+    line-height:12px;
+    cursor: pointer; 
+    font-style: normal;
+    background: #7F8C8D;
+    padding:0px;
 
-	.div2 {
-		margin:1px 0px;
-		border:0px solid red;
-		height:28px;
-	}
-	.text02 {
-		border: 0px solid #dddddd;
-		color: #999999;
-		float: left;
-		height: 24px;	
-		margin:1px 0px;
-		line-height: 14px;
-		padding: 0px 5px;
-		width: 83.5%;
-		background-color: #FCFCFC;
-	}
-	.login-put2 {
-		border:0px solid red;						
-		display: inline-block;
-		width:58px;
-	}
-	.login-put2 input {
-		height:10px;
-		position:relative;
-		top:1px;
-	}
-	.delComment {
-		float:right;
-		margin-right:3px;
-	}
-	.comment_head_img {
-		position: absolute;
-		left:0;
-		top:0;
-	}
-	.comment_head_img img {	
-		width:30px;
-		height:30px;
-		margin-top:3px;
-	}
-	.comment_user_id {
-		color:rgb(41, 128, 185);
-		/*color:#eb7350;*/
-		font-weight:bold;
-	}
-	.comment_time {
-		color:rgb(127, 140, 141);
-	}
+
+    transition:width 2s, height 2s,color 2s,background 2s;
+    -moz-transition:width 2s, height 2s,color 2s,background 2s, -moz-transform 2s; /* Firefox 4 */
+    -webkit-transition:width 2s, height 2s,color 2s,background 2s, -webkit-transform 2s; /* Safari and Chrome */
+    -o-transition:width 2s, height 2s,color 2s,background 2s, -o-transform 2s; /* Opera */
+    }
+.like button:hover {	
+    color: white;
+    background:#E74C3C;
+    transform:rotate(360deg);
+    -moz-transform:rotate(360deg); /* Firefox 4 */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    -o-transform:rotate(360deg); /* Opera */
+}
+.login-put {
+    border:0px solid red;			
+    display: inline-block;
+    position:relative;
+    bottom:2px;	
+    float:right;
+}
+.line4{
+    border:0px solid red;
+    margin:1px 3px;
+    padding-left:5px;
+    background-color: #fcfcfc;
+}
+.like_me{
+    border:0px solid red;
+    display: inline-block;
+    color:#4A4AFF;
+    font-weight:bold;
+    color:rgb(41, 128, 185);
+    font-size:12px;
+
+}
+.like_me img {
+    width:14px;
+    height:14px;
+    vertical-align:text-bottom;
+}
+.div1 {
+    border:0px solid red;
+    margin:10px 0px 1px 3px;
+    height:28px;
+}
+.text01 {
+    border: 0px solid #dddddd;
+    color: #999999;
+    float: left;
+    height: 24px;	
+    margin:1px 0px;
+    line-height: 16px;
+    padding: 0px 5px;
+    width: 410px;
+    background-color: #f2f2f5;
+}
+.button01{
+    display: inline-block;
+    width:60px;
+    margin-left:0px;
+    margin-top:0px;
+    margin-right:0px;
+}
+.button01 button {
+    width: 60px;
+    height:26px; 
+    border: 0px solid rgb(236, 240, 241);
+    color:rgb(236, 240, 241);
+    background:#95a5a6;
+    font-size:10px;
+    cursor: pointer; 
+    font-style: normal;
+    font-weight:bold;
+
+    border-radius:2px;
+}
+.comment{
+    border:0px solid red;
+    margin:1px 3px 0px 3px;
+    padding: 3px 5px 3px 5px;
+    color:rgb(44, 62, 80);
+    background-color: #f0f0f0;
+    font-size:12px;
+    color: #333;
+}
+.one_comment {
+    display:block;
+    line-height: 18px;
+    padding-left:40px;
+    position:relative;
+}
+.comment img {
+    width:18px;
+    height:18px;
+    vertical-align:text-bottom;
+}
+
+.div2 {
+    margin:1px 0px;
+    border:0px solid red;
+    height:28px;
+}
+.text02 {
+    border: 0px solid #dddddd;
+    color: #999999;
+    float: left;
+    height: 24px;	
+    margin:1px 0px;
+    line-height: 14px;
+    padding: 0px 5px;
+    width: 83.5%;
+    background-color: #FCFCFC;
+}
+.login-put2 {
+    border:0px solid red;						
+    display: inline-block;
+    width:58px;
+}
+.login-put2 input {
+    height:10px;
+    position:relative;
+    top:1px;
+}
+.delComment {
+    float:right;
+    margin-right:3px;
+}
+.comment_head_img {
+    position: absolute;
+    left:0;
+    top:0;
+}
+.comment_head_img img {	
+    width:30px;
+    height:30px;
+    margin-top:3px;
+}
+.comment_user_id {
+    color:rgb(41, 128, 185);
+    /*color:#eb7350;*/
+    font-weight:bold;
+}
+.comment_time {
+    color:rgb(127, 140, 141);
+}
